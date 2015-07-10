@@ -12,3 +12,5 @@ bin-release/
 
 my-project/target/
 target/
+.idea
+*.iml

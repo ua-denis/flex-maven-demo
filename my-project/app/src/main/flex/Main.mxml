@@ -25,5 +25,16 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
+    <fx:Script>
+        <![CDATA[
+        import com.myproject.library.ProjectLibrary;
+
+        ]]>
+    </fx:Script>
+
+
 	<s:Label text="Hello World." />
+
+    <s:Label text="{(new ProjectLibrary()).getText()}" top="50"/>
+
 </s:Application>
